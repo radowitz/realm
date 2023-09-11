@@ -6,8 +6,8 @@ on:
         required: true
         default: 'test'
   push:
-    tags:
-      - v*
+    branches:
+      - master # 触发工作流的分支
 
 name: container
 
